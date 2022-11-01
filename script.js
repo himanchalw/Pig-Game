@@ -30,7 +30,7 @@ const init = function () {
   current1EL.textContent = 0;
 
   diceEL.classList.add('hidden');
-  player1EL.classList.remove('player-winner');
+  player1EL.classList.remove('player--winner');
   player0EL.classList.remove('player--winner');
   player1EL.classList.remove('player--active');
   player0EL.classList.add('player--active');
